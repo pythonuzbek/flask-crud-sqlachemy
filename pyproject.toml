@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flask"
+version = "0.1.0"
+description = ""
+authors = ["pythonuzbek <nusratullo3304@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jinja2 = "^3.1.2"
+Flask = "2.3.2"
+SQLAlchemy= "2.0.15"
+psycopg2-binary="2.9.6"
+
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
